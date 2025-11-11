@@ -10,6 +10,7 @@ header.titulo {
   padding: 20px;
   color: white;
   text-shadow: 2px 2px red;
+  
 }
 
 section.principal {
@@ -34,6 +35,10 @@ div.clase1 a {
   background-color: rgb(255, 0, 0);
   text-shadow: 2px 2px black;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+div.clase1{
+  box-shadow: 5px 5px 5px black;
 }
 
 div.clase1 a:hover {
@@ -74,6 +79,7 @@ table.segundo {
   border: 1px solid black;
   border-spacing: 0;
   overflow: hidden;
+  box-shadow: -5px -5px 10px 10px #888;
 }
 
 section.tabla1,
@@ -138,11 +144,13 @@ div.lista1 ul {
   grid-template-columns: 1fr 1fr;
   width: 50%;
   padding: 0;background-color: blueviolet;
+  box-shadow:inset 0px 0px 20px 5px black, 5px 5px 5px 5px gray ;
 }
 
 div.lista1 {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 div.secundaria{
@@ -157,13 +165,15 @@ div.lista2 {
   width: auto;
   text-align:left;
   padding: 10px 30px;
+  box-shadow: 0px 0px 30px 5px black;
+  margin-bottom: 50px;
 }
 
 
 div.lista2 ul{
   margin: 0;
-  
   list-style-type: square;
+  
 }
 
 div.lista2 ul li::marker {
